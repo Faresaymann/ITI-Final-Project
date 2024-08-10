@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "user1@gmail.com",
+      "password": "password1"
+    },
+    {
+      "id": "2",
+      "username": "admin2",
+      "email": "user2@gmail.com",
+      "password": "password2"
+    },
+    {
+      "id": "2821",
+      "username": "yassin",
+      "email": "yassinyahia44@gmail.com",
+      "password": "yassin"
+    },
+    {
+      "id": "7cf4",
+      "username": "fares el 3sab",
+      "email": "anayassin688@gmail.com",
+      "password": "yassin"
+    },
+    {
+      "id": "c72d",
+      "username": "faresaymann",
+      "email": "faresaymann2020@gmail.com",
+      "password": "fares"
+    },
+    {
+      "id": "ae59",
+      "username": "faresaymann",
+      "email": "faresayman5453@gmail.com",
+      "password": "fares"
+    }
+  ],
+  "events": [
+    {
+      "id": "1723069022737",
+      "title": "fares",
+      "date": "2024-08-20T21:00:00.000Z",
+      "reminder": "2024-08-10T00:26"
+    },
+    {
+      "id": "1723249889404",
+      "title": "ayman",
+      "date": "2024-08-20T21:00:00.000Z",
+      "reminder": "2024-08-10T03:31"
+    },
+    {
+      "id": "1723249925152",
+      "title": "ayman",
+      "date": "2024-08-21T21:00:00.000Z",
+      "reminder": "2024-08-10T03:32"
+    },
+    {
+      "id": "1723300864741",
+      "title": "If you're waiting for me to care, you better bring a comfortable chair",
+      "date": "2024-08-20T21:00:00.000Z",
+      "reminder": "2024-08-10T17:41"
+    }
+  ]
+}

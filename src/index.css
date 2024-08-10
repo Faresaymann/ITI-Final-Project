@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+.bg-color {
+  background-image: linear-gradient(90deg, rgb(2, 0, 29) 0%, rgb(22, 33, 70) 100%, rgb(12, 154, 179) 100%);
+  background-color: initial;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  max-width: 400px;
+  width: 100%;
+}
