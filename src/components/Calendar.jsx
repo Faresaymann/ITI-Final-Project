@@ -124,8 +124,8 @@ const Calendar = () => {
     <div className="min-h-screen">
       {/*  CalendarTitle */}
       <CalendarTitle />
-      {/* Header */}
 
+      {/* Header */}
       <div className="flex justify-center items-center ">
         {/* Calendar section */}
         <div className="flex flex-col md:flex-row bg-[#373c4f]  text-gray-800 p-3 gap-3 rounded ">
