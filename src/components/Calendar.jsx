@@ -74,7 +74,7 @@ const Calendar = () => {
   const handleEditEvent = (updatedEvent) => {
     console.log(updatedEvent);
     fetch(`http://localhost:5000/events/${updatedEvent.id}`, {
-      method: "PUT", 
+      method: "PUT",
       body: JSON.stringify(updatedEvent),
       headers: {
         "Content-Type": "application/json",
@@ -93,15 +93,20 @@ const Calendar = () => {
   };
 
   const handleDeleteEvent = (eventId) => {
-    fetch(`http://localhost:5000/events/${eventId}`, {
-      method: "DELETE",
-    })
-      .then(() => {
-        setEvents(events.filter((event) => event.id !== eventId));
+    if (confirm("Do you want to delete this?")) {
+      fetch(`http://localhost:5000/events/${eventId}`, {
+        method: "DELETE",
       })
-      .catch((err) => {
-        console.log(err);
-      });
+        .then(() => {
+          setEvents(events.filter((event) => event.id !== eventId));
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+      console.log("Item deleted");
+    } else {
+      console.log("Action canceled");
+    }
   };
 
   const openModal = (date, event = null) => {
